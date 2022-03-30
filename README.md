@@ -1,1 +1,1 @@
-# svelte-blog
+# svelte를 통해 기술블로그를 만들어가는 과정 기술
