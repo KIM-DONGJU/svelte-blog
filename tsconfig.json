@@ -5,6 +5,8 @@
   "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
   "compilerOptions": {
     "baseUrl": "./",
-    "paths": { "@/*": ["src/*"] }
+    "paths": { 
+      "@/*": ["src/*"],
+    }
   }
 }
