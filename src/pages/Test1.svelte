@@ -1,1 +1,11 @@
-레이아웃 테스트 1 
+<script lang="ts">
+  import {
+    AppBanner
+  } from '@/components';
+</script>
+
+<div>
+  <AppBanner
+  bannerConetents={'설명을 해보자'}
+  />
+</div>

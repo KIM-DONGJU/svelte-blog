@@ -4,7 +4,7 @@
 
   import {push } from 'svelte-spa-router';
 
-  function goPage(page: string) {
+  const goPage = (page: string) => {
     push(page);
   }
 </script>
@@ -18,3 +18,16 @@
     <Router {routes} />
   </div>
 </div>
+
+<style lang="scss">
+  .default-layout {
+    display: flex;
+    height: 100vh;
+
+    .pages-layout {
+      flex: 1;
+      background-color: #ddd;
+    }
+  }
+
+</style>
