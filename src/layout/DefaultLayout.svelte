@@ -13,6 +13,7 @@
   <div class="nav-layout">
     <button on:click={() => goPage('/')}>test1 이동</button>
     <button on:click={() => goPage('/test2')}>test2 이동</button>
+    <button on:click={() => goPage('/study')}>공부 기록 페이지 이동</button>
   </div>
   <div class="pages-layout">
     <Router {routes} />
